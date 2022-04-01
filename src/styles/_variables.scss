@@ -1,0 +1,44 @@
+:root {
+    /*colors */
+    /* font */
+    --regular: 400;
+    --bold: 600;
+    --font-hl: 'RobotoSlab', serif;
+    --font-hlb: 'RobotoSlab-Bold', serif;
+    --font-copy: 'OpenSans', serif;
+    /* color */
+    // --app-color: linear-gradient(180deg, #6C7BA7 0%, #242C43 37.4%, #141D38 53.66%);
+    --app-color: #fdfcfc;
+    --app-color_rgb: 253, 252, 252;
+    --app-text-color: #black;
+    --app-text-color_rgb: 0, 0, 0;
+    /* app accent */
+    --app-accent: #3336f7;
+    --app-accent_rgb: 51, 54, 247;
+    /* button */
+    --button-text-color: #ffffff;
+    --button-text-color_rgb: 255, 255, 255;
+    /* decorators */
+    --separator: #d1d1d1;
+    /* vertical baseline */
+    --vm10: 240px;
+    --vm8: 192px;
+    --vm6: 144px;
+    --vm4: 96px;
+    --vm2: 48px;
+    --vb: 24px;
+    --vd2: 12px;
+    --vd4: 6px;
+    --vd6: 4px;
+    --vd8: 3px;
+    --vd10: 2.4px;
+}
+
+
+/*
+
+[data-theme=light] {
+  
+
+}
+*/

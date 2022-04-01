@@ -1,0 +1,15 @@
+    // const data = [
+    //   { col: 'A', row: 'v1', value: '30' },
+    //   { col: 'A', row: 'v2', value: '50' },
+    //   { col: 'A', row: 'v3', value: '60' },
+    //   { col: 'A', row: 'v4', value: '10' },
+    //   { col: 'A', row: 'v5', value: '20' },
+    //   { col: 'A', row: 'v6', value: '90' },
+
+    //   { col: 'B', row: 'v1', value: '10' },
+    //   { col: 'B', row: 'v2', value: '70' },
+    //   { col: 'B', row: 'v3', value: '30' },
+    //   { col: 'B', row: 'v4', value: '60' },
+    //   { col: 'B', row: 'v5', value: '40' },
+    //   { col: 'B', row: 'v6', value: '70' },
+    // ];
