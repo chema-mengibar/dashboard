@@ -1,8 +1,17 @@
 # Dashboard
 
+
+## Widgets
+
+The panel allows to create two types of charts:
+- Scatter Plot
+- Heatmap
+
+By selecting the chart type, dropdowns are displayed with the numerical variables that can be represented on the axes.
+
 ## Data
 
-https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+**Source**: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
 
 ```
 {
@@ -90,10 +99,37 @@ A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a trac
 >= 0<= 1
 
 
+## Code architecture
+
+### Views 
+The main view of the project is  the Dashboard
+`.\src\views`
+
+Handles the main asynchronous loading of the data, 
+contains the tools for the creation of the widgets
+and contains the loop that renders the widgets.
+
+### Widgets
+`.\src\components\widgets`
+
+The widget components work with the d3.js library and generate their own content and styles independently.
+
+### Services
+`.\src\services`
+
+The separation of tasks into different services allows the creation of a modular architecture.
+There are services for data managment, widget creation, configuration...
+
+Parts involve:
+- Registration and service instance
+- Service injection in components
+- Vue reactivity
+
 ## Tech Stack
 
 - Vue 3 
 - Typescript 
+- Scss
 - Vite
 
 https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
@@ -110,3 +146,7 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
+## Links
+
+- https://vuejs.org/guide/components/provide-inject.html#provide
+- https://vuejs.org/guide/extras/reactivity-in-depth.html
