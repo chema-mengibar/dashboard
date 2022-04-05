@@ -7,3 +7,4 @@
 
 - https://d3-graph-gallery.com/graph/heatmap_basic.html
 - https://stackoverflow.com/questions/41725725/access-css-variable-from-javascript
+- https://d3-graph-gallery.com/graph/custom_color.html

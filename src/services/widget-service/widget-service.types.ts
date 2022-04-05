@@ -1,4 +1,4 @@
-import { TopSongsEntry } from "../../services/data-service.types";
+import { TopSongsEntry } from "../data-service/data-service.types";
 
 export enum Widgets {
   scatterPlot = 'scatter-plot',
@@ -19,5 +19,19 @@ export interface ConfigHeatMap {
 export interface WidgetRegistryEntry {
   type: Widgets
   config: ConfigScatterPlot | ConfigHeatMap
+  id: string
 }
 
+
+export interface OptionsScatterPlot {
+  x: keyof TopSongsEntry | null
+  y: keyof TopSongsEntry | null
+}
+
+
+export interface OptionsHeatMap {
+  valueProp: keyof TopSongsEntry | null
+}
+
+
+export type WidgetOptions = OptionsScatterPlot & OptionsHeatMap 

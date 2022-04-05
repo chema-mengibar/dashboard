@@ -1,5 +1,5 @@
 <script  lang="ts">
-import { WidgetRegistryEntry, Widgets } from '../components/widgets/widget.types'
+import { WidgetRegistryEntry } from '../services/widget-service/widget-service.types'
 import { defineComponent } from 'vue'
 
 interface ComponentData {
@@ -9,19 +9,9 @@ interface ComponentData {
 export default defineComponent({
   name: "Home",
   inject: ["$services"],
-  // data: (): ComponentData  => ({
-
-  // }),
   methods: {},
   created() {
     // Nothing to do
-  },
-  mounted() {
-
-
-  },
-  components: {
-
   },
 });
 </script>
