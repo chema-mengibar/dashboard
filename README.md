@@ -41,7 +41,7 @@ By selecting the chart type, dropdowns are displayed with the numerical variable
 
 - acousticness (number<float>)
 A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
->= 0<= 1
+`>= 0<= 1`
 
 - analysis_url (string)
 A URL to access the full audio analysis of this track. An access token is required to access this data.
@@ -63,7 +63,7 @@ Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated 
 
 - key (integer)
 The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.
->= -1<= 11
+`>= -1<= 11`
 
 - liveness (number<float>)
 Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
@@ -82,7 +82,7 @@ The overall estimated tempo of a track in beats per minute (BPM). In musical ter
 
 - time_signature (integer)
 An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of "3/4", to "7/4".
->= 3<= 7
+`>= 3<= 7`
 
 - track_href (string)
 A link to the Web API endpoint providing full details of the track.
@@ -96,7 +96,7 @@ The Spotify URI for the track.
 
 - valence (number<float>)
 A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
->= 0<= 1
+`>= 0<= 1`
 
 
 ## Code architecture
