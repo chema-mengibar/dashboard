@@ -150,3 +150,12 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 - https://vuejs.org/guide/components/provide-inject.html#provide
 - https://vuejs.org/guide/extras/reactivity-in-depth.html
+- https://vuejs.org/guide/typescript/overview.html
+- https://vitejs.dev/guide/features.html#typescript-compiler-options
+- https://www.typescriptlang.org/tsconfig#isolatedModules
+- https://vuejs.org/guide/typescript/composition-api.html
+- https://stackoverflow.com/questions/67865654/what-is-a-proper-way-to-create-a-type-for-vue-props
+
+- https://d3-graph-gallery.com/graph/heatmap_basic.html
+- https://stackoverflow.com/questions/41725725/access-css-variable-from-javascript
+- https://d3-graph-gallery.com/graph/custom_color.html
